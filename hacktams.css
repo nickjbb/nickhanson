@@ -1,0 +1,41 @@
+.b {
+    font-family:'cursive';
+    color: red;
+    grid-column: 2;
+    background-color:mintcream;
+}
+body{
+    text-align: center;
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg1.cgtrader.com%2Fitems%2F711404%2F0fcaef36be%2Ftrollface-3d-model-max-obj-3ds-fbx-stl.jpg&f=1&nofb=1);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%, 100%;
+    display: grid;
+    grid-template-columns: 33%, 33%, 34%;
+    grid-template-rows: 33%, 33%, 34%;
+
+}
+footer {
+    overflow:auto;
+    min-height: 50%;
+    font-style:italic;
+    padding-bottom:10px;
+    color: blue;
+    grid-column:2;
+    grid-row: 2;
+    font-size:5in;
+}
+.oh{
+    transform:rotateY(150deg);
+  
+}
+img {
+    grid-column:1;
+    
+
+}
+.subheading{
+    text-size-adjust:initial;
+    text-transform: capitalize;
+    background-color:lightsalmon;
+}
